@@ -5,10 +5,13 @@ html {
 body {
     width: 75%;
    margin: 0 auto; 
+   flex-direction: column;
+   background-color: goldenrod;
 
 }
 
-#goofy_burger {
+#goofy_eyes {
+    width: 70%;
     display: block;
    margin: auto;
 }
@@ -62,9 +65,4 @@ h1 {
 
 .addBurgerButton:active {
 	background-color: grey;
-}
-
-.burgerFooter {
-	background-color: grey;
-	padding: 20px 0;
 }
